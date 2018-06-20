@@ -44,26 +44,29 @@ table {
 }
 
 
-
-/* mobile */
-@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
-    .onlyShowInDesktop{
-        visibility: hidden;
-    }
-    #navMain {
-        display: flex;
-        justify-content: flex-start;
-    }
-    #navMain > li {
-        flex-basis: auto;
-    }
-    .portfolioimage {
-        width: 20%;
-    }
+/* new css */
+body{
+    padding: 1%;
+}
+.onlyShowInDesktop{
+    visibility: hidden;
+}
+#navMain {
+    padding-top: 1%;
+    display: flex;
+    justify-content: flex-start;
+}
+#navMain > li {
+    flex-basis: auto;
+    width: 20%;
+}
+.portfolioimage {
+    width: 20%;
 }
 
+
 /* tablet */
-@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) {
+@media only screen and (min-width: 768px) {
 }
 
 
