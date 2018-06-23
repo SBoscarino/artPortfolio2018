@@ -46,6 +46,7 @@ table {
 
 /* new css */
 body{
+	font-family: 'IM Fell English SC', serif;
     padding: 1%;
 }
 .onlyShowInDesktop{
@@ -72,7 +73,13 @@ body{
 
 /* desktop */
 @media only screen  and (min-width : 1224px) {
+	#leftPanel{
+		width: 20%;
+	}
     .onlyShowInDesktop{
         visibility: visible;
-    }
+	}
+	.portfolioimage {
+		width: 16%;
+	}
 }
