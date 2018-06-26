@@ -30,38 +30,38 @@
 
     <div id="rightPanel">
         <h2>Sketches</h2>
-        <div class="digital">
-            <a href="images/portfolioImages/photography/aurora.jpg" data-lightbox="sketches" > 
+        <div class="sketches">
+            <a href="images/portfolioImages/sketches/anotherDoggo.jpg" data-lightbox="sketches" > 
                 <img class="portfolioimage" src="images/portfolioImages/sketches/anotherDoggo.JPG" alt="description" />
             </a> 
-            <a href="images/portfolioImages/digital/muppetBoye.jpg" data-lightbox="sketches" > 
+            <a href="images/portfolioImages/sketches/creeperSketch.jpg" data-lightbox="sketches" > 
                 <img class="portfolioimage" src="images/portfolioImages/sketches/creeperSketch.JPG" alt="description" />
             </a> 
-            <a href="images/portfolioImages/digital/pinkDude.jpg" data-lightbox="sketches" > 
+            <a href="images/portfolioImages/sketches/creeperSketch2.jpg" data-lightbox="sketches" > 
                 <img class="portfolioimage" src="images/portfolioImages/sketches/creeperSketch2.JPG" alt="description" />
             </a> 
-            <a href="images/portfolioImages/digital/pinkDude.jpg" data-lightbox="sketches" > 
+            <a href="images/portfolioImages/sketches/creeperSketch3.jpg" data-lightbox="sketches" > 
                 <img class="portfolioimage" src="images/portfolioImages/sketches/creeperSketch3.JPG" alt="description" />
             </a> 
-            <a href="images/portfolioImages/digital/pinkDude.jpg" data-lightbox="sketches" > 
+            <a href="images/portfolioImages/sketches/creeperSketch4.jpg" data-lightbox="sketches" > 
                 <img class="portfolioimage" src="images/portfolioImages/sketches/creeperSketch4.JPG" alt="description" />
             </a> 
-            <a href="images/portfolioImages/digital/pinkDude.jpg" data-lightbox="sketches" > 
+            <a href="images/portfolioImages/sketches/crowSketches.jpg" data-lightbox="sketches" > 
                 <img class="portfolioimage" src="images/portfolioImages/sketches/crowSketches.JPG" alt="description" />
             </a> 
-            <a href="images/portfolioImages/digital/pinkDude.jpg" data-lightbox="sketches" > 
+            <a href="images/portfolioImages/sketches/dino.jpg" data-lightbox="sketches" > 
                 <img class="portfolioimage" src="images/portfolioImages/sketches/dino.JPG" alt="description" />
             </a> 
-            <a href="images/portfolioImages/digital/pinkDude.jpg" data-lightbox="sketches" > 
+            <a href="images/portfolioImages/sketches/merTiger.jpg" data-lightbox="sketches" > 
                 <img class="portfolioimage" src="images/portfolioImages/sketches/merTiger.JPG" alt="description" />
             </a> 
-            <a href="images/portfolioImages/digital/pinkDude.jpg" data-lightbox="sketches" > 
+            <a href="images/portfolioImages/sketches/pupperSketch.jpg" data-lightbox="sketches" > 
                 <img class="portfolioimage" src="images/portfolioImages/sketches/pupperSketch.JPG" alt="description" />
             </a> 
-            <a href="images/portfolioImages/digital/pinkDude.jpg" data-lightbox="sketches" > 
+            <a href="images/portfolioImages/sketches/sketchPage.jpg" data-lightbox="sketches" > 
                 <img class="portfolioimage" src="images/portfolioImages/sketches/sketchPage.JPG" alt="description" />
             </a> 
-            <a href="images/portfolioImages/illustration/tigerSwordsman.jpg" data-lightbox="illustration" > 
+            <a href="images/portfolioImages/illustration/tigerSwordsman.jpg" data-lightbox="sketches" > 
                 <img class="portfolioimage" src="images/portfolioImages/illustration/tigerSwordsman.jpg" alt="description" />
             </a>
         </div>
@@ -80,20 +80,20 @@
         </div>
 
         <h2>Photography</h2>
-        <div class="digital">
+        <div class="photography">
             <a href="images/portfolioImages/photography/aurora.jpg" data-lightbox="photography" > 
                 <img class="portfolioimage" src="images/portfolioImages/photography/icelandChurch.JPG" alt="description" />
             </a> 
-            <a href="images/portfolioImages/digital/muppetBoye.jpg" data-lightbox="photography" > 
+            <a href="images/portfolioImages/photography/aurora.jpg" data-lightbox="photography" > 
                 <img class="portfolioimage" src="images/portfolioImages/photography/aurora.JPG" alt="description" />
             </a> 
-            <a href="images/portfolioImages/digital/pinkDude.jpg" data-lightbox="photography" > 
+            <a href="images/portfolioImages/photography/sheep.jpg" data-lightbox="photography" > 
                 <img class="portfolioimage" src="images/portfolioImages/photography/sheep.JPG" alt="description" />
             </a> 
         </div>
 
         <h2>Illustration</h2>
-        <div id="paintings">
+        <div class="illustration">
             <a href="images/portfolioImages/illustration/angryBoye.jpg" data-lightbox="illustration" > 
                 <img class="portfolioimage" src="images/portfolioImages/illustration/angryBoye.jpg" alt="description" />
             </a> 
@@ -187,6 +187,28 @@
         $('.digital').magnificPopup({
         delegate: 'a', // child items selector, by clicking on it popup will open
         type: 'image',
+        closeOnContentClick: true,
+        gallery:{enabled:true}
+        });
+
+        $('.illustration').magnificPopup({
+        delegate: 'a', // child items selector, by clicking on it popup will open
+        type: 'image',
+        closeOnContentClick: true,
+        gallery:{enabled:true}
+        });
+
+        $('.photography').magnificPopup({
+        delegate: 'a', // child items selector, by clicking on it popup will open
+        type: 'image',
+        closeOnContentClick: true,
+        gallery:{enabled:true}
+        });
+
+        $('.sketches').magnificPopup({
+        delegate: 'a', // child items selector, by clicking on it popup will open
+        type: 'image',
+        closeOnContentClick: true,
         gallery:{enabled:true}
         });
     </script>
